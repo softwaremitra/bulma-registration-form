@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Hello Bulma!</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <style>
+            .custom-bg {
+                background: linear-gradient(-30deg, #4f38a4, #a244bc 45%, #4f38a4 45%) #4f38a4;
+            }
+            body {
+                background: linear-gradient( #13ddc9,#ffffff);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="section">
+            <div class="box notification custom-bg is-family-monospace">
+                <button class="delete"></button>
+                <h4 class="title has-text-white is-4">Registration Form</h1>
+                <hr>
+                <div class="columns">
+                    <div class="column is-half">
+                        <div class="field">
+                            <label class="label  has-text-white">Name</label>
+                            <div class="control">
+                              <input class="input" type="text" placeholder="enter your full name">
+                            </div>
+                          </div>
+    
+                          <div class="field">
+                            <label class="label has-text-white">Username</label>
+                            <div class="control has-icons-left has-icons-right">
+                              <input class="input is-success" type="text" placeholder="abc123" value="david123">
+                              <span class="icon is-small is-left">
+                                <i class="fas fa-user"></i>
+                              </span>
+                              <span class="icon is-small is-right">
+                                <i class="fas fa-check"></i>
+                              </span>
+                            </div>
+                            <p class="help is-success">This username is available</p>
+                          </div>
+
+                          <div class="field">
+                            <label class="label  has-text-white">Password</label>
+                            <div class="control">
+                              <input class="input" type="password" placeholder="enter password">
+                            </div>
+                          </div>
+    
+                          <div class="field">
+                            <label class="label  has-text-white">Confirm Password</label>
+                            <div class="control">
+                              <input class="input" type="password" placeholder="enter password again">
+                            </div>
+                          </div>
+    
+                          <div class="field">
+                            <label class="label  has-text-white">Mobile</label>
+                            <div class="control">
+                              <input class="input" type="text" placeholder="+91 9999999999">
+                            </div>
+                          </div>
+                    </div>
+    
+                    <div class="column is-half">
+                        <div class="field">
+                            <label class="label has-text-white">Email</label>
+                            <div class="control has-icons-left has-icons-right">
+                              <input class="input is-danger" type="email" placeholder="david@gmail.com" value="david@">
+                              <span class="icon is-small is-left">
+                                <i class="fas fa-envelope"></i>
+                              </span>
+                              <span class="icon is-small is-right">
+                                <i class="fas fa-exclamation-triangle"></i>
+                              </span>
+                            </div>
+                            <p class="help is-danger">This email is invalid</p>
+                          </div>
+                          
+                          <div class="field">
+                            <label class="label has-text-white">Gender</label>
+                            <div class="control">
+                              <div class="select">
+                                <select>
+                                    <option>Select gender</option>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                    <option>Other</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                          
+                          <div class="field">
+                            <label class="label has-text-white">Address</label>
+                            <div class="control">
+                              <textarea class="textarea" placeholder="enter your full address"></textarea>
+                            </div>
+                          </div>
+                          
+                          <div class="field">
+                            <div class="control">
+                              <label class="checkbox has-text-white">
+                                <input type="checkbox">
+                                I agree to the <a href="#" class="has-text-info">terms and conditions</a>
+                              </label>
+                            </div>
+                          </div>
+                          
+                          <div class="field">
+                            <div class="control">
+                              <label class="radio has-text-white">
+                                <input type="radio" name="question">
+                                Yes
+                              </label>
+                              <label class="radio has-text-white">
+                                <input type="radio" name="question">
+                                No
+                              </label>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column ">
+                        <div class="field is-grouped">
+                          <div class="control">
+                            <button class="button is-success">Submit</button>
+                          </div>
+                          <div class="control">
+                            <button class="button is-link is-light">Cancel</button>
+                          </div>
+                        </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+                    
